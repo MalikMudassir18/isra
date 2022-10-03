@@ -154,4 +154,4 @@ python  get_va_cloud_data.py model -model_csv
 ```
 ## License
 
-###### ©Digital-States
+###### ©DigitalStates Inc.
