@@ -2,7 +2,7 @@
 
 
 
-                                    [![N](Digital-States-Logo-colored.png)]
+                                    [![N](Cloud/images_run_new_job/Digital-States-Logo-colored.png)]
 # Step I
 ## Run New Job
 ```sh
