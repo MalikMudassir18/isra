@@ -1,0 +1,39 @@
+=======================================================
+Configure Authentication ==============================
+=======================================================
+*************** New Job Data From Cloud ***************
+*************** ***************
+Response length  :  3
+******************** This Data Get From Backend To Run The Job   ********************
+dl model name :  Intrusion
+dl model id : 4
+camera Id : 5
+machine_id : 1
+Roi name : Basement
+=======================================================
+Get Data From Cloud And Store It =================================
+=======================================================
+=======================================================
+Get Camera Url ,Model Id , Object Type Id ,Event Type Id , Final Url  =================================
+=======================================================
+******************** remove exist json file ********************
+******************** create  Json file to store the data ********************
+Exception states [Errno 2] No such file or directory: 'config_v2.json' !
+*************** New Job Data From Cloud ***************
+*************** ***************
+Response length  :  3
+******************** This Data Get From Backend To Run The Job   ********************
+dl model name :  Intrusion
+dl model id : 4
+camera Id : 5
+machine_id : 1
+Roi name : Basement
+=======================================================
+Get Data From Cloud And Store It =================================
+=======================================================
+=======================================================
+Get Camera Url ,Model Id , Object Type Id ,Event Type Id , Final Url  =================================
+=======================================================
+******************** remove exist json file ********************
+******************** create  Json file to store the data ********************
+Exception states [Errno 2] No such file or directory: 'config_v2.json' !

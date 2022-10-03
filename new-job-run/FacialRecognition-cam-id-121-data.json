@@ -1,0 +1,1 @@
+{"model_name": "Facial Recognition", "camera_id": "121", "dl_model_id": 5, "alert_type_id": 5, "event_type_id": 2, "final_url": "rtsp://admin:admin@10.39.110.86:554/ch1/main/av_stream.h264", "rois": {"mud": [[63.5, 57.5], [713.5, 51.5], [728.5, 311.5], [59.5, 286.5]]}, "object_type": "person", "object_count": 2, "machine_id": 1, "tenant_id": 2}

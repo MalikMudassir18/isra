@@ -1,0 +1,1 @@
+{"model_name": "Intrusion", "camera_id": "121", "dl_model_id": 4, "alert_type_id": 4, "event_type_id": 2, "final_url": "rtsp://admin:admin@10.39.110.86:554/ch1/main/av_stream.h264", "rois": {"j": [[156, 150.5], [549, 170.5], [535, 305.5], [204, 357.5]]}, "object_type": "person", "object_count": 1, "machine_id": 1, "tenant_id": 2}
