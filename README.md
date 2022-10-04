@@ -2,7 +2,7 @@
 # Step I
 ## Run New Job
 
-#### First step is to login the tenat by clicking Digitalstates.
+### First step is to login the tenat by clicking Digitalstates.
 
 [![digital States](https://www.digitalstates.com/assets/img/root/logo-black.png)](https://apps.onstak.io/external/va-platform/sso/login)
 
@@ -74,20 +74,20 @@ python post_job.py
 ```
 python get_va_cloud_data.py –h
 ```
-#### There is an optional argument naming “-cfg”. This argument take value as name of json file like “config.json”. The default name is “config.json” in the code. If you have json file with some other names like “config_v2.json” or “config_v1.json” you have to pass -cfg argument with your spacified name of json file. e.g
+### There is an optional argument naming “-cfg”. This argument take value as name of json file like “config.json”. The default name is “config.json” in the code. If you have json file with some other names like “config_v2.json” or “config_v1.json” you have to pass -cfg argument with your spacified name of json file. e.g
 ```
 python  get_va_cloud_data.py -cfg “config_v2.json”
 ```
 ### Note : If your json file name is already “config.json” there is no need to pass -cfg argument
-#### There are two positional argument {camera, model}. To get information about cameras pass camera as argument. To get information about deployed models you have to pass model argument like 
+### There are two positional argument {camera, model}. To get information about cameras pass camera as argument. To get information about deployed models you have to pass model argument like 
 ```
 python  get_va_cloud_data.py camera
 ```
 ```
 python  get_va_cloud_data.py model
 ```
-#### Camera
-#### In Camera there are four sub arguments
+### Camera
+### In Camera there are four sub arguments
 1. -camera_list
 2. -camera_info
 3. -rtsp
@@ -95,7 +95,7 @@ python  get_va_cloud_data.py model
 
 ### 1. -camera_list
 
-##### camera_list shows the list of all cameras names
+#### camera_list shows the list of all cameras names
 ```
 python  get_va_cloud_data.py camera -camera_list
 ```
