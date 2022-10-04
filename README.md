@@ -12,9 +12,13 @@
 
 
 
+
+
 ### - In AI Models,
 
 ![list](images_run_new_job/R2.png)
+
+
 
 
 
@@ -26,9 +30,13 @@
 
 
 
+
+
 ### - select camera in Nav-Bar
 
 ![Camera](images_run_new_job/R4.png)
+
+
 
 
 
@@ -40,9 +48,13 @@
 
 
 
+
+
 ### - than press next button, if notification is required fill it accordingly else press finish button.
 
 ![Notification](images_run_new_job/R6.png)
+
+
 
 
 
@@ -134,6 +146,8 @@ python get_va_cloud_data.py camera -camera_csv
 
 
 
+
+
 ### Model
 
 #### Get model argument help as 
@@ -152,6 +166,8 @@ python  get_va_cloud_data.py model --help
 python  get_va_cloud_data.py model -model_list
 ```
 ![Models List](images_run_new_job/models.png)
+
+
 
 
 
@@ -176,6 +192,8 @@ python  get_va_cloud_data.py model -model_csv
 ```
 
 ![Model info csv](images_run_new_job/model_info_csv.png)
+
+
 
 
 
