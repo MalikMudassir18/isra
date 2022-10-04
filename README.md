@@ -1,6 +1,4 @@
 
-
-
                                     ![DigitalStates-Logo](images_run_new_job/Digital-States-Logo-colored.png)
 # Step I
 ## Run New Job
