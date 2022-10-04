@@ -1,12 +1,12 @@
 
 
-              [![DigitalStates](images_run_new_job/Digital-States-Logo-colored.png)](https://apps.onstak.io/external/va-platform/sso/login)
+                                    [![N](https://travis-ci.org/joemccann/dillinger.svg?branch=master))](https://apps.onstak.io/external/va-platform/sso/login)
 # Step I
 ## Run New Job
 ```sh
 First step is to login the tenat
 
-[![Click to Login the Tenat]](https://apps.onstak.io/external/va-platform/sso/login)
+![Click to Login the Tenat](https://apps.onstak.io/external/va-platform/sso/login)
 
 ![Tenat](Cloud/images_run_new_job/R1.png)
 
