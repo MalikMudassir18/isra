@@ -1,29 +1,27 @@
-
-
-                                    [![N](https://travis-ci.org/joemccann/dillinger.svg?branch=master))](https://apps.onstak.io/external/va-platform/sso/login)
-# Step I
+[![digital States](https://www.digitalstates.com/assets/img/root/logo-black.png)](https://www.digitalstates.com/)
+# Step 1
 ## Run New Job
-```sh
-First step is to login the tenat
+First step is to login the tenat by clicking Digitalstates.
 
-![Click to Login the Tenat](https://apps.onstak.io/external/va-platform/sso/login)
+[![digital States](https://www.digitalstates.com/assets/img/root/logo-black.png)](https://apps.onstak.io/external/va-platform/sso/login)
 
-![Tenat](Cloud/images_run_new_job/R1.png)
+
+![Tenat](images_run_new_job/R1.png)
 
 In AI Models,
 
-![list](Cloud/images_run_new_job/R2.png)
+![list](images_run_new_job/R2.png)
 
 Select Model than click on "+ New" button to add specific camera on the model
 
-![+ New](Cloud/images_run_new_job/R3.png)
+![+ New](images_run_new_job/R3.png)
 
 select camera in Nav-Bar
 
-![Camera](Cloud/images_run_new_job/R4.png)
+![Camera](images_run_new_job/R4.png)
 
 click next and add Object Type, Count, Name(ROI), draw ROI in Picture and press right click on ROI, add Name by clicking"+"button
-![Object Type](Cloud/images_run_new_job/R5.png)
+![Object Type](images_run_new_job/R5.png)
 
 than press next button, if notification is required fill it accordingly else press finish button.
 
