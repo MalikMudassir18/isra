@@ -41,7 +41,7 @@ pip install -r requirment.txt
 python run_new_job.py -h
 ```
 ```
-python run_new_job.py -m
+python run_new_job.py -m Intrusion
 ```
 ```
 python run_new_job.py -a
