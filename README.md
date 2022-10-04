@@ -33,7 +33,7 @@
 #### Run requirement.txt for creating enviornment, activate it and run the command given below.i.e python run_new_job.py -h is for help, python run_new_job.py -m (Name of the model), python run_new_job.py -a(to download all models)
 
 ## Installation
-Install the dependencies by running 
+#### Install the dependencies by running 
 ```sh
 pip install -r requirment.txt
 ```
