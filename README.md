@@ -10,36 +10,42 @@
 ![Tenat](images_run_new_job/R1.png)
 
 
-#### In AI Models,
+
+### In AI Models,
 
 ![list](images_run_new_job/R2.png)
 
 
-#### Select Model than click on "+ New" button to add specific camera on the model
+
+### Select Model than click on "+ New" button to add specific camera on the model
 
 ![+ New](images_run_new_job/R3.png)
 
 
-#### select camera in Nav-Bar
+
+### select camera in Nav-Bar
 
 ![Camera](images_run_new_job/R4.png)
 
 
-#### click next and add Object Type, Count, Name(ROI), draw ROI in Picture and press right click on ROI, add Name by clicking"+"button
+
+### click next and add Object Type, Count, Name(ROI), draw ROI in Picture and press right click on ROI, add Name by clicking"+"button
 ![Object Type](images_run_new_job/R5.png)
 
 
-#### than press next button, if notification is required fill it accordingly else press finish button.
+
+### than press next button, if notification is required fill it accordingly else press finish button.
 
 ![Notification](images_run_new_job/R6.png)
 
 
-#### In config.json paste the credentials for that Tenat.
 
-#### Run requirement.txt for creating enviornment, activate it and run the command given below.i.e python run_new_job.py -h is for help, python run_new_job.py -m (Name of the model), python run_new_job.py -a(to download all models)
+### In config.json paste the credentials for that Tenat.
+
+### Run requirement.txt for creating enviornment, activate it and run the command given below.i.e python run_new_job.py -h is for help, python run_new_job.py -m (Name of the model), python run_new_job.py -a(to download all models)
 
 ## Installation
-#### Install the dependencies by running 
+### Install the dependencies by running 
 ```sh
 pip install -r requirment.txt
 ```
@@ -55,16 +61,16 @@ python run_new_job.py -a
 # Step II
 ## Run Post Job 
 
-#### Make sure these two folders preprocessing_videos and final_videos_images (having .json, .jpeg, .mp4 files) and config.json file path in post_job.py with credentials and internet connection than run command given below
+### Make sure these two folders preprocessing_videos and final_videos_images (having .json, .jpeg, .mp4 files) and config.json file path in post_job.py with credentials and internet connection than run command given below
 ```sh
 python post_job.py
 ```
-#### Check the event in final_videos_images than on tenat. 
+### Check the event in final_videos_images than on tenat. 
 
 # Step III
 ## VA Cloud Data
 
-#### Run this command 
+### Run this command 
 ```
 python get_va_cloud_data.py –h
 ```
