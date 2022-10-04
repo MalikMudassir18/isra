@@ -1,10 +1,6 @@
 
-<<<<<<< HEAD
-                          ![DigitalStates-Logo](images_run_new_job/Digital-States-Logo-colored.png)
-=======
 
                                     ![DigitalStates](images_run_new_job/Digital-States-Logo-colored.png/)
->>>>>>> 4cf43bcfbc8c8f3c0f5aee2b38d11564b09e8b8c
 # Step I
 ## Run New Job
 ```sh
