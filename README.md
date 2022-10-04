@@ -11,9 +11,11 @@
 
 
 
+
 ### In AI Models,
 
 ![list](images_run_new_job/R2.png)
+
 
 
 
@@ -23,20 +25,25 @@
 
 
 
+
 ### select camera in Nav-Bar
 
 ![Camera](images_run_new_job/R4.png)
 
 
 
+
 ### click next and add Object Type, Count, Name(ROI), draw ROI in Picture and press right click on ROI, add Name by clicking"+"button
+
 ![Object Type](images_run_new_job/R5.png)
+
 
 
 
 ### than press next button, if notification is required fill it accordingly else press finish button.
 
 ![Notification](images_run_new_job/R6.png)
+
 
 
 
@@ -105,7 +112,7 @@ python  get_va_cloud_data.py camera -camera_list
 
 ##### This argument take a value as name of the camera and show complete json of that camera. You pass the argument as python  get_va_cloud_data.py camera -camera_info “Developers Space”
 
-#### Example
+### Example
 ```
 {'id': 6, 'name': 'Developers Space', 'location': '34.0110647,-118.4107829', 'description': '', 'rtspHost': '10.39.110.246', 'rtspPort': 554, 'rtspPath': '/ch1/main/av_stream.h264', 'rtspUsername': 'dl-team', 'rtspPassword': 'dl@Onstak123', 'image': '6_2.jpg', 'macAddress': None, 'serialKey': None, 'networkId': None, 'ciscoMerakiCameraName': '', 'thermalPort': None, 'createdBy': 'akhter.ali', 'updatedBy': 'amir.nadeem', 'createdAt': '2021-11-01T15:13:43.000Z', 'updatedAt': '2022-09-26T08:32:45.000Z', 'cameraStreamTypeId': 1, 'cameraRTSPInputTypeId': 1, 'make': None, 'model': None, 'accessMethod': None, 'integrationDetailId': None, 'tenantId': 2, 'DLModels': [], 'integration_detail': None}
 ```
@@ -123,6 +130,10 @@ python get_va_cloud_data.py camera -camera_csv
 ```
 ![Cameras info csv](images_run_new_job/cameras_info_csv.png)
 
+
+
+
+
 ### Model
 
 ##### Get model argument help as 
@@ -136,7 +147,7 @@ python  get_va_cloud_data.py model --help
 
 ### 1. -model_list
 
-##### This will list all the deployed models on the tenant
+#### This will list all the deployed models on the tenant
 ```
 python  get_va_cloud_data.py model -model_list
 ```
@@ -144,21 +155,27 @@ python  get_va_cloud_data.py model -model_list
 
 ### 2. -mode_info
 
-##### This will take model name as value to display complete json of that model.
+#### This will take model name as value to display complete json of that model.
 ```
 python  get_va_cloud_data.py model -model_info “Occupancy”
 ```
-##### Example
+#### Example
 ```
+
 {'id': 8, 'name': 'Occupancy', 'dlObjects': [{'name': 'Person', 'attributes': [{'key': 'occupancydetected', 'values': ['true', 'false', 'number']}]}], 'description': 'Video analytics occupancy detection', 'image': '1654251858511-792990250.jpg', 'shortDescription': None, 'displayName': 'Occupancy Detection', 'createdAt': '2020-07-01T12:00:00.000Z', 'updatedAt': '2022-06-03T10:24:18.000Z'}
+
 ```
 ### 3. -model_csv
 
-##### This argument will create and save csv of all the models available on the tenant.
+#### This argument will create and save csv of all the models available on the tenant.
 ```
 python  get_va_cloud_data.py model -model_csv
 ```
+
 ![Model info csv](images_run_new_job/model_info_csv.png)
+
+
+
 
 ## License
 
