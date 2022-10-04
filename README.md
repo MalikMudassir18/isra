@@ -1,7 +1,7 @@
 [![digital States](https://www.digitalstates.com/assets/img/root/logo-black.png)](https://www.digitalstates.com/)
 # Step 1
 ## Run New Job
-First step is to login the tenat by clicking Digitalstates.
+##### First step is to login the tenat by clicking Digitalstates.
 
 [![digital States](https://www.digitalstates.com/assets/img/root/logo-black.png)](https://apps.onstak.io/external/va-platform/sso/login)
 
@@ -20,7 +20,7 @@ First step is to login the tenat by clicking Digitalstates.
 
 ![Camera](images_run_new_job/R4.png)
 
-click next and add Object Type, Count, Name(ROI), draw ROI in Picture and press right click on ROI, add Name by clicking"+"button
+##### click next and add Object Type, Count, Name(ROI), draw ROI in Picture and press right click on ROI, add Name by clicking"+"button
 ![Object Type](images_run_new_job/R5.png)
 
 than press next button, if notification is required fill it accordingly else press finish button.
