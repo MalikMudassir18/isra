@@ -1,6 +1,6 @@
 
 
-                                    [![DigitalStates]](images_run_new_job/Digital-States-Logo-colored.png)
+              [![DigitalStates](images_run_new_job/Digital-States-Logo-colored.png)](https://apps.onstak.io/external/va-platform/sso/login)
 # Step I
 ## Run New Job
 ```sh
