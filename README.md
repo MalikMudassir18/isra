@@ -26,33 +26,33 @@
 
 
 
-### -select camera in Nav-Bar
+### - select camera in Nav-Bar
 
 ![Camera](images_run_new_job/R4.png)
 
 
 
 
-### -click next and add Object Type, Count, Name(ROI), draw ROI in Picture and press right click on ROI, add Name by clicking"+"button
+### - click next and add Object Type, Count, Name(ROI), draw ROI in Picture and press right click on ROI, add Name by clicking"+"button
 
 ![Object Type](images_run_new_job/R5.png)
 
 
 
 
-### -than press next button, if notification is required fill it accordingly else press finish button.
+### - than press next button, if notification is required fill it accordingly else press finish button.
 
 ![Notification](images_run_new_job/R6.png)
 
 
 
 
-### In config.json paste the credentials for that Tenat.
+### - In config.json paste the credentials for that Tenat.
 
-### Run requirement.txt for creating enviornment, activate it and run the command given below.i.e python run_new_job.py -h is for help, python run_new_job.py -m (Name of the model), python run_new_job.py -a(to download all models)
+### - Run requirement.txt for creating enviornment, activate it and run the command given below.i.e python run_new_job.py -h is for help, python run_new_job.py -m (Name of the model), python run_new_job.py -a(to download all models)
 
 ## Installation
-### Install the dependencies by running 
+### - Install the dependencies by running 
 ```sh
 pip install -r requirment.txt
 ```
@@ -68,33 +68,33 @@ python run_new_job.py -a
 # Step II
 ## Run Post Job 
 
-### Make sure these two folders preprocessing_videos and final_videos_images (having .json, .jpeg, .mp4 files) and config.json file path in post_job.py with credentials and internet connection than run command given below
+### - Make sure these two folders preprocessing_videos and final_videos_images (having .json, .jpeg, .mp4 files) and config.json file path in post_job.py with credentials and internet connection than run command given below
 ```sh
 python post_job.py
 ```
-### Check the event in final_videos_images than on tenat. 
+### - Check the event in final_videos_images than on tenat. 
 
 # Step III
 ## VA Cloud Data
 
-### Run this command 
+### - Run this command 
 ```
 python get_va_cloud_data.py –h
 ```
-### There is an optional argument naming “-cfg”. This argument take value as name of json file like “config.json”. The default name is “config.json” in the code. If you have json file with some other names like “config_v2.json” or “config_v1.json” you have to pass -cfg argument with your spacified name of json file. e.g
+### - There is an optional argument naming “-cfg”. This argument take value as name of json file like “config.json”. The default name is “config.json” in the code. If you have json file with some other names like “config_v2.json” or “config_v1.json” you have to pass -cfg argument with your spacified name of json file. e.g
 ```
 python  get_va_cloud_data.py -cfg “config_v2.json”
 ```
-### Note : If your json file name is already “config.json” there is no need to pass -cfg argument
-### There are two positional argument {camera, model}. To get information about cameras pass camera as argument. To get information about deployed models you have to pass model argument like 
+### - Note : If your json file name is already “config.json” there is no need to pass -cfg argument
+### - There are two positional argument {camera, model}. To get information about cameras pass camera as argument. To get information about deployed models you have to pass model argument like 
 ```
 python  get_va_cloud_data.py camera
 ```
 ```
 python  get_va_cloud_data.py model
 ```
-### Camera
-### In Camera there are four sub arguments
+### - Camera
+### - In Camera there are four sub arguments
 1. -camera_list
 2. -camera_info
 3. -rtsp
@@ -136,11 +136,11 @@ python get_va_cloud_data.py camera -camera_csv
 
 ### Model
 
-##### Get model argument help as 
+#### Get model argument help as 
 ```
 python  get_va_cloud_data.py model --help
 ```
-##### In model there are three sub argument
+#### In model there are three sub argument
 1. -model_list
 2. -mode_info
 3. -model_csv
@@ -152,6 +152,9 @@ python  get_va_cloud_data.py model --help
 python  get_va_cloud_data.py model -model_list
 ```
 ![Models List](images_run_new_job/models.png)
+
+
+
 
 ### 2. -mode_info
 
