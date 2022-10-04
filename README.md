@@ -8,15 +8,15 @@ First step is to login the tenat by clicking Digitalstates.
 
 ![Tenat](images_run_new_job/R1.png)
 
-In AI Models,
+##### In AI Models,
 
 ![list](images_run_new_job/R2.png)
 
-Select Model than click on "+ New" button to add specific camera on the model
+##### Select Model than click on "+ New" button to add specific camera on the model
 
 ![+ New](images_run_new_job/R3.png)
 
-select camera in Nav-Bar
+##### select camera in Nav-Bar
 
 ![Camera](images_run_new_job/R4.png)
 
